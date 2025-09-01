@@ -20,7 +20,7 @@ body {
 }
 
 .principal {
-  background-image: url("Background.png");
+  background-image: url("assets-alura+/Background.png");
   background-repeat: no-repeat;
   background-size: contain;
   align-items: center;
@@ -69,4 +69,75 @@ body {
 
 .container-caixa {
   margin: 0 6em;
+}
+
+.secundario-imagem {
+  width: 80%;
+}
+.secundario {
+  align-items: center;
+  margin: 0 10em;
+}
+
+.descricao-titulo {
+  font-weight: 700;
+  font-size: 3rem;
+  color: var(--branco-principal);
+  margin-bottom: 0.1em;
+}
+
+.descricao-texto {
+  color: var(--cinza-secundario);
+}
+
+.secundario-botao {
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.container-descricao {
+  padding: 2rem;
+}
+
+.dispositivos-lista {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 5em 0;
+}
+.dispositivos {
+  text-align: center;
+}
+
+.dispositivos-titulo {
+  font-size: 3rems;
+  color: var(--branco-principal);
+}
+
+.lista-item {
+  font-size: 2rem;
+  color: var(--branco-principal);
+}
+
+.rodape-lista {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 4em 0;
+  gap: 1rem;
+}
+
+.rodape-texto {
+  font-size: 0.8rem;
+}
+
+footer {
+  text-align: center;
+  margin: 5rem;
+}
+
+.lista-link a {
+  color: var(--branco-principal);
+  text-decoration: none;
+  font-size: 1rem;
 }
