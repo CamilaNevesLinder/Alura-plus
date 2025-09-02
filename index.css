@@ -4,6 +4,7 @@
   --botao-azul: #167bf7;
   --cor-de-fundo: #00030c;
   --fonte-principal: "inter";
+  --botao-azul-efeito: #3c92fa;
 }
 
 * {
@@ -41,6 +42,11 @@ body {
   display: block;
   text-decoration: none;
   margin-bottom: 1em;
+}
+
+.container-botao:hover {
+  background-color: var(--botao-azul-efeito);
+  color: var(--cor-de-fundo);
 }
 
 .botao-secundario {
@@ -140,4 +146,12 @@ footer {
   color: var(--branco-principal);
   text-decoration: none;
   font-size: 1rem;
+}
+
+.lista-link a:active {
+  color: #800080;
+}
+
+.lista-link a:hover {
+  color: var(--botao-azul);
 }
