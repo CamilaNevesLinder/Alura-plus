@@ -155,3 +155,60 @@ footer {
 .lista-link a:hover {
   color: var(--botao-azul);
 }
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1em;
+    height: auto;
+  }
+
+  .container-caixa,
+  .secundario {
+    margin: 1em auto;
+  }
+
+  .secundario-imagem {
+    width: 100%;
+    max-width: 400px;
+    margin: 1em auto;
+  }
+
+  .container-botao,
+  .botao-secundario {
+    width: 90%;
+    margin: 0.5em auto;
+  }
+
+  .descricao-titulo,
+  .dispositivos-titulo {
+    font-size: 1.8rem;
+  }
+
+  .descricao-texto {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .dispositivos-lista {
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+  }
+
+  .rodape-lista {
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    margin: 2em 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .descricao-titulo,
+  .dispositivos-titulo {
+    font-size: 1.5rem;
+  }
+}
